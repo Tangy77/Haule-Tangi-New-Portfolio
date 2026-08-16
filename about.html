@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Tangi Haule</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/96344edfdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="top-progress"></div>
+<div id="signal-rail">
+  <div class="rail-fill"></div>
+  <div class="rail-pulse"></div>
+  <span class="rail-label">SIGNAL</span>
+</div>
+
+<header class="site-header">
+  <nav>
+    <a href="index.html" class="brand"><span class="dot"></span>Tangi Haule</a>
+    <ul id="sidemenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <i class="fa-solid fa-x" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+</header>
+
+<section style="padding-top:160px;">
+  <div class="container about-grid">
+    <div class="reveal">
+      <div class="about-photo">
+        <img src="Images/New_photo.jpeg" alt="Tangi Haule">
+      </div>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow">U1 — About</span>
+      <h1 class="section-title" style="font-size:44px;">About Me</h1>
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+        <p class="tab-links" onclick="opentab('achievements', event)">Achievements</p>
+        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+        <p class="tab-links" onclick="opentab('education', event)">Education</p>
+      </div>
+
+      <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>Embedded Systems</span><p>STM32-based firmware development, real-time control, and hardware-software integration.</p></li>
+          <li><span>RF / Microwave &amp; Wireless Systems</span><p>Foundations in telecommunications engineering, IoT connectivity, and wireless system design.</p></li>
+          <li><span>UI/UX Design</span><p>Designing clean, usable interfaces for web and app products.</p></li>
+          <li><span>Web Development</span><p>Building and styling responsive front-ends alongside electronics design work.</p></li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="achievements">
+        <ul>
+          <li><span>Certificate of Achievement · 2024</span><p>Best first-year student — 70.2% Honours Roll.</p></li>
+          <li><span>Second Best Student · 2025</span><p>Electronics &amp; Computer Engineering — achieved 75.08%.</p></li>
+          <li><span>Student Assistant · 2025</span><p>Computer Programming 2.</p></li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="experience">
+        <ul>
+          <li class="experience-entry">
+            <img src="Images/edutec-logo.png" class="experience-logo" alt="Edutec Educational Technology">
+            <div>
+              <span>Edutec · Software Engineer Intern</span>
+              <p>Six-month software engineering internship.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-contents" id="education">
+        <ul>
+          <li><span>Feb 2023 — Present</span><p>University of Namibia (UNAM), JEDS Campus — Electronics &amp; Computer Engineering.</p></li>
+        </ul>
+      </div>
+
+      <div style="margin-top:40px;">
+        <a href="Images/Resume.pdf" download class="btn btn-primary">Download Full CV <i class="fa-solid fa-arrow-down"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span class="year"></span> Tangi Haule. Built with <i class="fa-solid fa-heart"></i></p>
+    <p>tangihaule77@gmail.com</p>
+  </div>
+</footer>
+
+<script src="assistant-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

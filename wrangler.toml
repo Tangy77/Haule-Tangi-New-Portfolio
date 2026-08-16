@@ -1,0 +1,6 @@
+name = "tangi-portfolio-assistant"
+main = "worker.js"
+compatibility_date = "2026-08-16"
+
+# Add your exact portfolio URL in the Cloudflare dashboard after deployment.
+# Example: https://your-github-username.github.io

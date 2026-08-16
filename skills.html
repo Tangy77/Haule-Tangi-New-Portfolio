@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skills — Tangi Haule</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/96344edfdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="top-progress"></div>
+<div id="signal-rail">
+  <div class="rail-fill"></div>
+  <div class="rail-pulse"></div>
+  <span class="rail-label">SIGNAL</span>
+</div>
+
+<header class="site-header">
+  <nav>
+    <a href="index.html" class="brand"><span class="dot"></span>Tangi Haule</a>
+    <ul id="sidemenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html" class="active">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <i class="fa-solid fa-x" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+</header>
+
+<section class="skills-page">
+  <div class="container">
+    <div class="skills-heading reveal">
+      <span class="eyebrow">U2 — Skills</span>
+      <h1 class="section-title">Core Engineering <span class="gradient-text">Competencies</span></h1>
+      <p class="section-lead">A focused toolkit for building secure, reliable, and AI-enabled digital products.</p>
+    </div>
+
+    <div class="competency-grid">
+      <article class="competency-card reveal">
+        <div class="competency-title"><i class="fa-solid fa-microchip"></i><h2>AI &amp; Prompt Engineering</h2></div>
+        <ul class="skill-pills">
+          <li><i class="fa-solid fa-wand-magic-sparkles"></i>Advanced Prompt Design</li>
+          <li><i class="fa-solid fa-plug"></i>Groq API Integration</li>
+          <li><i class="fa-solid fa-sliders"></i>System Prompt Engineering</li>
+          <li><i class="fa-solid fa-code"></i>AI Output Structuring</li>
+        </ul>
+      </article>
+
+      <article class="competency-card reveal">
+        <div class="competency-title"><i class="fa-solid fa-server"></i><h2>Backend &amp; Architecture</h2></div>
+        <ul class="skill-bars">
+          <li><span>C# / ASP.NET</span><div class="meter"><b style="width:82%"></b></div></li>
+          <li><span>PHP</span><div class="meter"><b style="width:76%"></b></div></li>
+          <li><span>Node.js / Express</span><div class="meter"><b style="width:85%"></b></div></li>
+        </ul>
+      </article>
+
+      <article class="competency-card reveal">
+        <div class="competency-title"><i class="fa-solid fa-shield-halved"></i><h2>Data &amp; Security</h2></div>
+        <ul class="skill-bars">
+          <li><span>Firebase / NoSQL</span><div class="meter"><b style="width:82%"></b></div></li>
+          <li><span>MySQL</span><div class="meter"><b style="width:78%"></b></div></li>
+        </ul>
+      </article>
+
+      <article class="competency-card competency-card-wide reveal">
+        <div class="competency-title"><i class="fa-solid fa-screwdriver-wrench"></i><h2>Development &amp; Tooling</h2></div>
+        <ul class="skill-pills">
+          <li><i class="fa-brands fa-jira"></i>Jira</li>
+          <li><i class="fa-brands fa-git-alt"></i>Git / Version Control</li>
+          <li><i class="fa-solid fa-code-branch"></i>CI/CD Pipelines</li>
+          <li><i class="fa-solid fa-vial-circle-check"></i>Unit / Load Testing</li>
+          <li><i class="fa-solid fa-link"></i>API Integration</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span class="year"></span> Tangi Haule. Built with <i class="fa-solid fa-heart"></i></p>
+    <p>tangihaule77@gmail.com</p>
+  </div>
+</footer>
+
+<script src="assistant-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

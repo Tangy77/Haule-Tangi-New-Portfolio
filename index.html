@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tangi Haule — Electronics & Computer Engineer</title>
+<meta name="description" content="Portfolio of Tangi Haule, an electronics and computer engineering student focused on embedded systems, RF/microwave engineering, and IoT.">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/96344edfdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="top-progress"></div>
+<div id="signal-rail">
+  <div class="rail-fill"></div>
+  <div class="rail-pulse"></div>
+  <span class="rail-label">SIGNAL</span>
+</div>
+
+<header class="site-header">
+  <nav>
+    <a href="index.html" class="brand"><span class="dot"></span>Tangi Haule</a>
+    <ul id="sidemenu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <i class="fa-solid fa-x" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+</header>
+
+<section id="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="status-pill"><span class="ping"></span>LINK: ACTIVE — OPEN TO OPPORTUNITIES</div>
+      <h1 class="hero-title">Tangi Haule</h1>
+      <p class="hero-role">Electronics &amp; Computer Engineering student<span class="sep">/</span>Software Developer<span class="sep">
+      <p style="color:var(--text-dim); max-width:520px; margin-bottom:32px;">
+        An electronic & Computer engineering student in Final year at the University of Namibia with good
+academic achievements and some additional experience in AI & Software development. Possesses great
+communication and leadership skills. Keen to pursue a career in Software,AI
+or Data sector.
+      </p>
+      <div class="btn-row">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="Images/Resume.pdf" download class="btn">Download CV <i class="fa-solid fa-arrow-down"></i></a>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat">
+          <div class="num"><span class="g">75.08%</span></div>
+          <div class="label">SECOND BEST STUDENT · 2025</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span class="g">70.2%</span></div>
+          <div class="label">HONOURS ROLL · 2024</div>
+        </div>
+        <div class="stat">
+          <img src="Images/edutec-logo.png" class="employer-logo" alt="Edutec">
+          <div class="num">6 Months</div>
+          <div class="label">SOFTWARE ENGINEER INTERN · EDUTEC</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="halo-ring">
+        <img src="Images/Tangi.jpg" alt="Portrait of Tangi Haule">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tight reveal home-stage home-stage-right">
+  <div class="container">
+    <span class="eyebrow">U1 — About</span>
+    <h2 class="section-title">Engineering, with a design instinct</h2>
+    <p class="section-lead">
+      A quick look at what drives the work — the full story, skills, and education are on the About page.
+    </p>
+    <div class="services-list">
+      <div class="card">
+        <i class="fa-solid fa-microchip"></i>
+        <h3>Embedded Systems</h3>
+        <p>STM32-based design, real-time control, and low-level firmware for robotics and instrumentation.</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-satellite-dish"></i>
+        <h3>RF &amp; Wireless</h3>
+        <p>Microwave engineering fundamentals and IoT/wireless systems — from theory to working prototypes.</p>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-pen-ruler"></i>
+        <h3>UI/UX &amp; Graphic Design</h3>
+        <p>Interfaces and visual identity work, carried over from leading JEDS' graphic design team.</p>
+      </div>
+    </div>
+    <div style="margin-top:36px;">
+      <a href="about.html" class="btn">Read the full story <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="tight reveal home-stage home-stage-left">
+  <div class="container">
+    <span class="eyebrow">OUT — Featured Work</span>
+    <h2 class="section-title">Selected projects</h2>
+    <p class="section-lead">Embedded and robotics builds centered on STM32 microcontrollers.</p>
+    <div class="project-list">
+      <div class="project">
+        <div class="img-wrap"><img src="Images/Mechannin-wheel-car.jpeg" alt="Mecanum wheeled RC car"></div>
+        <div class="info">
+          <span class="tag">STM32 · MOTOR CONTROL</span>
+          <h3>Mecanum Wheeled RC Car</h3>
+          <p>Omnidirectional RC platform built around embedded real-time control.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="img-wrap"><img src="Images/Obstacle-Robot.jpeg" alt="Obstacle avoidance robot"></div>
+        <div class="info">
+          <span class="tag">STM32 · SENSORS</span>
+          <h3>Obstacle Avoidance Robot</h3>
+          <p>Mini servo robot with real-time navigation and obstacle detection.</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="img-wrap"><img src="Images/Basic-Cal.jpeg" alt="Basic calculator project"></div>
+        <div class="info">
+          <span class="tag">STM32 · LCD/KEYPAD</span>
+          <h3>Basic Calculator</h3>
+          <p>Standalone calculator built with a 4×4 keypad and LCD interface.</p>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:36px;">
+      <a href="projects.html" class="btn">See all projects <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="tight reveal home-stage home-stage-right">
+  <div class="container">
+    <div class="cta-banner">
+      <div>
+        <h2>TX — Let's build something.</h2>
+        <p>Open to internships, collaborations, and freelance design work.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span class="year"></span> Tangi Haule. Built with <i class="fa-solid fa-heart"></i></p>
+    <p>tangihaule77@gmail.com</p>
+  </div>
+</footer>
+
+<script src="assistant-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

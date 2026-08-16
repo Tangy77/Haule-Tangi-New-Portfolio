@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Tangi Haule</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/96344edfdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="top-progress"></div>
+<div id="signal-rail">
+  <div class="rail-fill"></div>
+  <div class="rail-pulse"></div>
+  <span class="rail-label">SIGNAL</span>
+</div>
+
+<header class="site-header">
+  <nav>
+    <a href="index.html" class="brand"><span class="dot"></span>Tangi Haule</a>
+    <ul id="sidemenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <i class="fa-solid fa-x" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  </nav>
+</header>
+
+<section style="padding-top:160px;">
+  <div class="container">
+    <span class="eyebrow">OUT — Projects</span>
+    <h1 class="section-title">Selected work</h1>
+    <p class="section-lead">
+      Embedded and robotics builds, mostly centered on STM32 microcontrollers — from
+      motor control to real-time sensing and simple computing devices.
+    </p>
+
+    <div class="project-list">
+      <div class="project reveal">
+        <div class="img-wrap"><img src="Images/Mechannin-wheel-car.jpeg" alt="Mecanum wheeled RC car"></div>
+        <div class="info">
+          <span class="tag">01 / EMBEDDED SYSTEMS</span>
+          <h3>Mecanum Wheeled RC Car</h3>
+          <p>Design and implementation of an omnidirectional RC platform, focused on embedded system architecture and real-time control on an STM32 microcontroller.</p>
+          <div class="chips">
+            <span class="chip">STM32</span>
+            <span class="chip">Motor Control</span>
+            <span class="chip">Embedded C</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project reveal">
+        <div class="img-wrap"><img src="Images/Obstacle-Robot.jpeg" alt="Obstacle avoidance robot"></div>
+        <div class="info">
+          <span class="tag">02 / ROBOTICS</span>
+          <h3>Obstacle Avoidance Mini-Servo Robot</h3>
+          <p>Design, implementation, and testing of a mini-servo robot capable of obstacle detection and avoidance, using an STM32 microcontroller for real-time navigation and control.</p>
+          <div class="chips">
+            <span class="chip">STM32</span>
+            <span class="chip">Sensors</span>
+            <span class="chip">Servo Control</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project reveal">
+        <div class="img-wrap"><img src="Images/Basic-Cal.jpeg" alt="Basic calculator project"></div>
+        <div class="info">
+          <span class="tag">03 / EMBEDDED SYSTEMS</span>
+          <h3>Basic Calculator</h3>
+          <p>Design and development of a simple calculator system using an STM32 microcontroller, a 4×4 matrix keypad, and an LCD display.</p>
+          <div class="chips">
+            <span class="chip">STM32</span>
+            <span class="chip">LCD</span>
+            <span class="chip">Keypad Input</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top:60px;">
+      <div class="cta-banner">
+        <div>
+          <h2>More builds in progress.</h2>
+          <p>New embedded and RF projects are added as they're completed — check back or reach out directly.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span class="year"></span> Tangi Haule. Built with <i class="fa-solid fa-heart"></i></p>
+    <p>tangihaule77@gmail.com</p>
+  </div>
+</footer>
+
+<script src="assistant-config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
