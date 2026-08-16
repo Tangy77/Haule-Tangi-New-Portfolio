@@ -4,5 +4,5 @@
   API key in this file or anywhere in the website.
 */
 window.PORTFOLIO_ASSISTANT_CONFIG = {
-  endpoint: ""
+  endpoint: "https://tangi-portfolio-assistant.tangihaule77.workers.dev/api/chat"
 };
